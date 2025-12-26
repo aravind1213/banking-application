@@ -80,6 +80,7 @@ public static void main(String[] args) {
 		break;
 	case 4:
 		obj.exit();
+		break;
 		
 	default:
 		System.out.println("Enter correct input");
