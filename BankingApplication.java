@@ -67,17 +67,15 @@ public static void main(String[] args) {
 		System.out.println("Enter amount to deposit :");
 		int amount=sc.nextInt();
 		obj.deposit(amount);
-		break;
 		
 	case 2:
 		System.out.println("Enter amount to withdraw :");
 		amount=sc.nextInt();
 		obj.withdraw(amount);
-		break;
 		
 	case 3:
 		obj.showBalance();
-		break;
+		
 	case 4:
 		obj.exit();
 		break;
